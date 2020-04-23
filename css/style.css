@@ -22,6 +22,18 @@
 }
 .button1 {border-radius: 12px;}
 
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
 .tech-background {
   background-image: url("../img/tech.jpg");
   background-position: center;
