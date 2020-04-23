@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: 6rem;
+}
+
+.home-background {
+  background-color: #35383D;
+}
+
+.pbl-logo {
+  height: 70px;
+  width: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
