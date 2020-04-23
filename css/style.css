@@ -10,6 +10,17 @@
   background-size: cover;
   height: 30rem;
 }
+.home-button {
+  background-color: #F1BF01; /* yellow */
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1 {border-radius: 12px;}
 
 .tech-background {
   background-image: url("../img/tech.jpg");
