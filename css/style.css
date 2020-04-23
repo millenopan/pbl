@@ -35,10 +35,25 @@ body {
   /* background-color: #35383D; */
 }
 
+.larger-text {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.shift-less-down {
+  position: relative;
+  top: 2rem;
+}
+
+.shift-kinda-down {
+  position: relative;
+  top: 3rem;
+}
+
 
 .shift-down {
   position: relative;
-  top: 6rem;
+  top: 5rem;
 }
 
 .shift-more-down {
@@ -51,4 +66,33 @@ p {
   margin-bottom: 2rem;
   margin-right: 10rem;
   margin-left: 10rem;
+}
+
+.wider-text {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+
+.circular {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.small-circular {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  /* look! I'm using flexbox froggy */
 }
