@@ -24,14 +24,23 @@
 
 .column {
   float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: 15px;
 }
 
-.left, .right {
-  width: 25%;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.middle {
-  width: 50%;
+.About-background {
+  background-image: url("../img/about.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
 }
 
 .tech-background {
