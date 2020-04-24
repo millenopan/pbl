@@ -36,11 +36,22 @@
   clear: both;
 }
 
-.About-background {
+.about-background {
   background-image: url("../img/about.jpg");
   background-position: center;
   background-size: cover;
-  height: 30rem;
+  height: 20rem;
+}
+
+.join-background {
+  background-image: url("../img/group.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 35rem;
+}
+
+.community-img {
+  width: 100%;
 }
 
 .tech-background {
@@ -49,6 +60,7 @@
   background-size: cover;
   height: 25rem;
 }
+
 
 
 .pbl-logo {
