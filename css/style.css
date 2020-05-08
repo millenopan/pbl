@@ -1,15 +1,17 @@
 .header {
   width: 100%;
-  height: 5rem;
+  height: auto;
   background-color: #35383D;
+  position: relative;
 }
 
 .home-background {
-  background-image: url("../img/group.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../img/group.jpg");
   background-position: center;
   background-size: cover;
-  height: 30rem;
+  height: 38rem;
 }
+
 .home-button {
   background-color: #F1BF01; /* yellow */
   border: none;
@@ -20,7 +22,9 @@
   display: inline-block;
   font-size: 16px;
 }
-.button1 {border-radius: 12px;}
+.button1 {
+  border-radius: 12px;
+}
 
 .column {
   float: left;
@@ -37,17 +41,17 @@
 }
 
 .about-background {
-  background-image: url("../img/about.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/about.jpg");
   background-position: center;
   background-size: cover;
   height: 20rem;
 }
 
 .join-background {
-  background-image: url("../img/group.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../img/group.jpg");
   background-position: center;
   background-size: cover;
-  height: 35rem;
+  height: 30rem;
 }
 
 .community-img {
@@ -55,12 +59,11 @@
 }
 
 .tech-background {
-  background-image: url("../img/tech.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/tech.jpg");
   background-position: center;
   background-size: cover;
   height: 25rem;
 }
-
 
 
 .pbl-logo {
@@ -70,6 +73,8 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  position: absolute;
+  top: 2.2rem;
 }
 
 body {
@@ -82,6 +87,11 @@ body {
 .larger-text {
   font-size: 32px;
   font-weight: 400;
+}
+
+.huge-text {
+  font-size: 48px;
+  font-weight: 500;
 }
 
 .shift-less-down {
@@ -126,6 +136,14 @@ p {
   border-radius: 50%;
 }
 
+.smaller-circular {
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .small-circular {
   position: relative;
   width: 15rem;
@@ -139,4 +157,29 @@ p {
   display: flex;
   justify-content: space-evenly;
   /* look! I'm using flexbox froggy */
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.text-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content:space-between;
+}
+
+.yellow-box {
+  text-align:center;
+  background-color:#F1BF01;
+  width:20rem;
+  height:4rem;
+  line-height:4rem;
+  color:white;
+  margin:2rem auto;
+  position:relative;
+}
+
+.shift-right {
+  text-align: left;
+  margin-left: 20rem;
 }
