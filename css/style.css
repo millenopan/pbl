@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .header {
   width: 100%;
   height: auto;
@@ -94,6 +103,11 @@ body {
   font-weight: 500;
 }
 
+.shift-1-down {
+  position: relative;
+  top: 1rem;
+}
+
 .shift-less-down {
   position: relative;
   top: 2rem;
@@ -103,7 +117,6 @@ body {
   position: relative;
   top: 3rem;
 }
-
 
 .shift-down {
   position: relative;
@@ -115,11 +128,13 @@ body {
   top: 10rem;
 }
 
-p {
+.spaced {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
+}
+.sides {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .wider-text {
@@ -156,9 +171,6 @@ p {
   margin-top: 5rem;
   display: flex;
   justify-content: space-evenly;
-  /* look! I'm using flexbox froggy */
-}
-.wrap {
   flex-wrap: wrap;
 }
 
@@ -181,5 +193,6 @@ p {
 
 .shift-right {
   text-align: left;
-  margin-left: 20rem;
+  position: relative;
+  margin-left: 13rem;
 }
