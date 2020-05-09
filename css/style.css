@@ -15,7 +15,7 @@ html,body
 }
 
 .home-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../img/group.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../img/group.jpg");
   background-position: center;
   background-size: cover;
   height: 38rem;
@@ -50,14 +50,14 @@ html,body
 }
 
 .about-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/about.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../img/about.jpg");
   background-position: center;
   background-size: cover;
   height: 20rem;
 }
 
 .join-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../img/group.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../img/join-pls.jpg");
   background-position: center;
   background-size: cover;
   height: 30rem;
@@ -68,7 +68,7 @@ html,body
 }
 
 .tech-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/tech.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../img/tech.jpg");
   background-position: center;
   background-size: cover;
   height: 25rem;
@@ -195,4 +195,17 @@ body {
   text-align: left;
   position: relative;
   margin-left: 13rem;
+}
+
+
+.navbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), transparent);
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+.navbar:hover {
+    background: rgba(0, 0, 0, 0.85);
 }
